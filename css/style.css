@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+*, html, body{
+    margin:0; 
+    padding:0; 
+    list-style: none; 
+    outline: none; 
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Arial Regular"; 
+    color: #737272
+}
+body{
+    width: 100%; 
+    height: 100vh; 
+    overflow: hidden;
+}
+.count{
+    width: auto; 
+    height: auto; 
+    padding: 10px; 
+    font-size: 50px; 
+    text-align: center
+}
+.fall {border-radius: 50%}
+.lose{ float: left }
+.win { float: right }
